@@ -35,3 +35,9 @@ def calculate_division(a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
+
+if __name__ == "__main__":
+    print(f"The total of 10 and 5 is: {calculate_total(10, 5)}")
+    print(f"The difference of 10 and 5 is: {calculate_difference(10, 5)}")
+    print(f"The product of 10 and 5 is: {calculate_product(10, 5)}")
+    print(f"The division of 10 by 5 is: {calculate_division(10, 5)}")
