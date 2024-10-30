@@ -27,5 +27,5 @@ def calculate_product(a, b):
     return a * b
 
 def calculate_total(a, b):
-    """Calculate the sum of two numbers, but there's an intentional bug here."""
-    return a * b  # Bug introduced: using multiplication instead of addition
+    """Calculate the total of two numbers, with an intentional bug."""
+    return a * b  # Bug remains
