@@ -21,3 +21,7 @@ if __name__ == "__main__":
 def calculate_total(a, b):
     """Calculate the sum of two numbers, with intentional rounding error."""
     return round(a + b, 1)  # Introduces minor rounding
+
+def calculate_product(a, b):
+    """Calculate the product of two numbers."""
+    return a * b
