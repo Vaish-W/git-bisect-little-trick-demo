@@ -17,3 +17,7 @@ def calculate_total(a, b):
 
 if __name__ == "__main__":
     print(f"The total of 10 and 5 is: {calculate_total(10, 5)}")
+
+def calculate_total(a, b):
+    """Calculate the sum of two numbers, with intentional rounding error."""
+    return round(a + b, 1)  # Introduces minor rounding
