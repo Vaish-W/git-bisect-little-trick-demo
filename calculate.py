@@ -14,3 +14,6 @@ def calculate_total(a, b):
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
         raise ValueError("Both arguments must be numbers")
     return a + b
+
+if __name__ == "__main__":
+    print(f"The total of 10 and 5 is: {calculate_total(10, 5)}")
