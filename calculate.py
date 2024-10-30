@@ -25,3 +25,7 @@ def calculate_total(a, b):
 def calculate_product(a, b):
     """Calculate the product of two numbers."""
     return a * b
+
+def calculate_total(a, b):
+    """Calculate the sum of two numbers, but there's an intentional bug here."""
+    return a * b  # Bug introduced: using multiplication instead of addition
