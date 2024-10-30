@@ -29,3 +29,9 @@ def calculate_product(a, b):
 def calculate_total(a, b):
     """Calculate the total of two numbers, with an intentional bug."""
     return a * b  # Bug remains
+
+def calculate_division(a, b):
+    """Calculate the division of two numbers."""
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
